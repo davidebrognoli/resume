@@ -1,0 +1,12 @@
+$black: #000;
+$white: #FFF;
+$grey: #999;
+
+
+$colors: (
+  text: $black
+);
+
+@function color($name) {
+  @return map-get($colors, $name);
+}
