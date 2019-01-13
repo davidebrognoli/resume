@@ -4,7 +4,10 @@ $grey: #999;
 
 
 $colors: (
-  text: $black
+  text: $black,
+  header_subtitle: $grey,
+  link: $grey,
+  link-hover: $black
 );
 
 @function color($name) {

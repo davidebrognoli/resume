@@ -1,3 +1,52 @@
 .main-header{
   display: flex;
+  padding: 60px 30px;
+
+  &__info{
+    flex: 3;
+    padding: 0 30px;
+
+    &-title{
+      font-size: 42px;
+      text-transform: uppercase;
+      margin: 0 0 5px 0;
+    }
+
+    &-subtitle{
+      font-size: 18px;
+      text-transform: uppercase;
+      color: color(header_subtitle);
+      margin: 0;
+    }
+
+    &-links{
+      list-style: none;
+      margin: 30px 0 0 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &-link{
+      flex: 0 0 50%;
+      margin-bottom: 10px;
+
+      a{
+        @include link;
+      }
+    }
+  }
+
+  &__image{
+    flex: 1;
+    padding: 0 30px;
+    text-align: right;
+
+    img{
+      display: inline-block;
+      width: 100%;
+      max-width: 140px;
+      border-radius: 100%;
+    }
+  }
 }
