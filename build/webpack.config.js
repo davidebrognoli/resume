@@ -99,7 +99,7 @@ module.exports = {
                     }
                 }]
             }
-        ] 
+        ]
     },
     plugins: [
         /** Since Webpack 4 */
@@ -111,11 +111,12 @@ module.exports = {
           new MiniCssExtractPlugin({
             filename: "[name]-styles.css",
             chunkFilename: "[id].css"
-          }),  
-         
+          }),
+
         new HtmlWebpackPlugin({
             title: 'Davide Brognoli',
             template: './src/index.handlebars',
+            templateParameters: require('./data.json'),
             minify: !isDevelopment && {
                 html5: true,
                 collapseWhitespace: true,

@@ -1,11 +1,8 @@
 .main-header{
   display: flex;
-  padding: 60px 30px;
+  margin-bottom: 30px;
 
   &__info{
-    flex: 3;
-    padding: 0 30px;
-
     &-title{
       font-size: 42px;
       text-transform: uppercase;
@@ -38,8 +35,6 @@
   }
 
   &__image{
-    flex: 1;
-    padding: 0 30px;
     text-align: right;
 
     img{

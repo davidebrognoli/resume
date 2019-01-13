@@ -1,0 +1,18 @@
+<div class="experiences content-section left-column">
+  <h2 class="experiences__title content-section__title">Esperienze</h2>
+  {{#each experiences}}
+  <div class="experiences__section">
+    <h3 class="experiences__section-title">{{this.role}}</h3>
+    <h4 class="experiences__section-company">{{this.company}}</h4>
+    <ul class="experiences__section-info">
+      <li class="experiences__section-info-item experiences__section-info-item--date"><i class="fas fa-calendar"></i>{{this.fromDate}} - {{this.toDate}}</li>
+      <li class="experiences__section-info-item experiences__section-info-item--place"><i class="fas fa-map-marker-alt"></i>{{this.place}}</li>
+    </ul>
+    <ul class="experiences__section-description">
+      {{#each this.description}}
+      <li>{{this}}</li>
+      {{/each}}
+    </ul>
+  </div>
+  {{/each}}
+</div>

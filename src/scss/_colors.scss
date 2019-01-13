@@ -1,13 +1,18 @@
 $black: #000;
 $white: #FFF;
 $grey: #999;
+$light-grey: #CCC;
 
 
 $colors: (
   text: $black,
   header_subtitle: $grey,
   link: $grey,
-  link-hover: $black
+  link-hover: $black,
+  title: $black,
+  subtitle: $grey,
+  border: $black,
+  dashed-border: $light-grey
 );
 
 @function color($name) {

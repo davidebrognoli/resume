@@ -1,0 +1,29 @@
+{
+  "experiences": [
+    {
+      "role": "Senior Frontend Developer",
+      "company": "CodicePlastico",
+      "fromDate": "gen 2018",
+      "toDate": "presente",
+      "place": "Brescia, Italy",
+      "description": [
+        "Analisi dei requisiti applicativi",
+        "Progettazione dell'archittettura di Frontend",
+        "Sviluppo di web application"
+      ]
+    },
+    {
+      "role": "Senior Frontend Developer",
+      "company": "Comparto Web",
+      "fromDate": "mar 2012",
+      "toDate": "dic 2017",
+      "place": "Brescia, Italy",
+      "description": [
+        "Analisi dei requisiti applicativi",
+        "Progettazione dell'archittettura di Frontend",
+        "Sviluppo di web application",
+        "Configurazione e sviluppo temi per Wordpress e Drupal"
+      ]
+    }
+  ]
+}
