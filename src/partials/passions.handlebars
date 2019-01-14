@@ -1,0 +1,11 @@
+<div class="passions content-section">
+  <h2 class="content-section__title">Passioni</h2>
+  <ul class="passions__items">
+    {{#each passions}}
+    <li class="passions__item">
+      <i class="fas {{this.icon}} passions__item-icon"></i>
+      <span class="passions__item-description">{{this.description}}</span>
+    </li>
+    {{/each}}
+  </ul>
+</div>

@@ -13,7 +13,14 @@
 <body>
   <div class="container">
     {{> partials/header }}
-    {{> partials/experiences }}
+    <div class="content">
+      <div class="left-column">
+        {{> partials/experiences }}
+      </div>
+      <div class="right-column">
+        {{> partials/passions }}
+      </div>
+    </div>
   </div>
 </body>
 

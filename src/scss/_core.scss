@@ -11,6 +11,10 @@ body{
   padding: 60px;
 }
 
+.content{
+  display: flex;
+}
+
 .left-column{
   flex: 0 0 75%;
   width: 75%;
@@ -27,7 +31,7 @@ body{
   margin-bottom: 30px;
 
   &__title{
-    font-size: 22px;
+    font-size: 26px;
     line-height: 40px;
     color: color(title);
     text-transform: uppercase;

@@ -12,7 +12,8 @@ $colors: (
   title: $black,
   subtitle: $grey,
   border: $black,
-  dashed-border: $light-grey
+  dashed-border: $light-grey,
+  icon: $grey
 );
 
 @function color($name) {

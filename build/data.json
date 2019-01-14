@@ -25,5 +25,28 @@
         "Configurazione e sviluppo temi per Wordpress e Drupal"
       ]
     }
+  ],
+  "passions": [
+    {
+      "icon": "fa-code",
+      "description": "Programmazione"
+    },
+    {
+      "icon": "fa-futbol",
+      "description": "Calcio"
+    },
+    {
+      "icon": "fa-camera-retro",
+      "description": "Fotografia"
+    },
+    {
+      "icon": "fa-tv",
+      "description": "Serie TV"
+    },
+    {
+      "icon": "fa-plane",
+      "description": "Viaggi"
+    }
+
   ]
 }
