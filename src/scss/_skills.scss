@@ -7,9 +7,10 @@
   }
 
   &__item{
-    border: 1px solid color(light-border);
     padding: 5px;
     margin: 5px;
+    border: 1px solid color(light-border);
+    border-radius: 3px;
   }
 }
 
