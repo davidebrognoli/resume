@@ -48,5 +48,6 @@
       "description": "Viaggi"
     }
 
-  ]
+  ],
+  "skills": ["Javascript", "HTML5", "CSS3", "Angular", "React", "Webpack", "ES6", "SASS", "D3"]
 }
