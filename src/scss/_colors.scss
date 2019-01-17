@@ -14,7 +14,9 @@ $colors: (
   border: $black,
   dashed-border: $light-grey,
   light-border: $light-grey,
-  icon: $grey
+  icon: $grey,
+  bar-bg: $black,
+  bar: $grey
 );
 
 @function color($name) {

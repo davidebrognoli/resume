@@ -49,5 +49,17 @@
     }
 
   ],
+  "languages": [
+    {
+      "name": "Italiano",
+      "level": "Madrelingua",
+      "percentage": "100"
+    },
+    {
+      "name": "Inglese",
+      "level": "Intermediate",
+      "percentage": "70"
+    }
+  ],
   "skills": ["Javascript", "HTML5", "CSS3", "Angular", "React", "Webpack", "ES6", "SASS", "D3"]
 }

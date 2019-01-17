@@ -1,0 +1,16 @@
+<div class="languages content-section">
+  <h2 class="content-section__title">Lingue</h2>
+  <div class="languages__items">
+    {{#each languages}}
+    <div class="languages__item">
+      <div class="languages__item-description">
+        <h3>{{this.name}}</h3>
+        <h4>{{this.level}}</h4>
+      </div>
+      <div class="languages__item-bar">
+        <div class="languages__item-bar-complete" style="width: {{this.percentage}}%"></div>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</div>
