@@ -1,0 +1,13 @@
+<div class="education content-section">
+  <h2 class="content-section__title">Formazione</h2>
+  {{#each education}}
+  <div class="education__section">
+    <h3 class="education__section-title">{{this.title}}</h3>
+    <h4 class="education__section-organisation">{{this.organisation}}</h4>
+    <ul class="education__section-info">
+      <li class="education__section-info-item education__section-info-item--date"><i class="fas fa-calendar"></i>{{this.fromDate}} - {{this.toDate}}</li>
+      <li class="education__section-info-item education__section-info-item--place"><i class="fas fa-map-marker-alt"></i>{{this.place}}</li>
+    </ul>
+  </div>
+  {{/each}}
+</div>

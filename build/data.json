@@ -26,6 +26,15 @@
       ]
     }
   ],
+  "education": [
+    {
+      "title": "Laurea di primo livello in Informatica",
+      "organisation": "Università Cattolica",
+      "fromDate": "sett 2002",
+      "toDate": "sett 2005",
+      "place": "Brescia, Italy"
+    }
+  ],
   "passions": [
     {
       "icon": "fa-code",
