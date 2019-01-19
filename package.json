@@ -26,6 +26,7 @@
     "postcss-normalize": "^4.0.0",
     "sass-loader": "^6.0.7",
     "style-loader": "^0.20.3",
+    "webapp-webpack-plugin": "^2.5.0",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1",
     "webpack-dev-server": "^3.1.1"
