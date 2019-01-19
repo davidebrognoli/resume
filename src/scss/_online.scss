@@ -1,4 +1,4 @@
-.passions{
+.online{
   &__items{
     list-style: none;
     margin: 0;
@@ -23,6 +23,7 @@
       font-size: 16px;
       line-height: 30px;
       vertical-align: middle;
+      color: color(text);
     }
   }
 }
