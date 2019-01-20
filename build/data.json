@@ -83,5 +83,32 @@
       "link": "@davidebrognoli",
       "url": "https://twitter.com/davidebrognoli"
     }
+  ],
+  "my_day": [
+    {
+      "length": 8,
+      "color": "#000",
+      "label": "Coding"
+    },
+    {
+      "length": 2,
+      "color": "#333",
+      "label": "Formazione"
+    },
+    {
+      "length": 2,
+      "color": "#666",
+      "label": "Svago"
+    },
+    {
+      "length": 5,
+      "color": "#999",
+      "label": "Famiglia"
+    },
+    {
+      "length": 7,
+      "color": "#CCC",
+      "label": "Riposo"
+    }
   ]
 }

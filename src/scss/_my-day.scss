@@ -1,0 +1,36 @@
+.my-day{
+
+  &__content{
+    display: flex;
+    align-items: center;
+  }
+
+  &__chart{
+    max-width: 250px;
+  }
+
+  &__legend{
+    margin: 0;
+    padding: 0 0 0 100px;
+    text-align: right;
+    list-style: none;
+
+    li{
+      padding: 5px 0;
+    }
+
+    &-label{
+      display: inline-block;
+      width: 100px;
+      text-align: right;
+      text-transform: uppercase;
+    }
+
+    &-color {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border-radius: 100%;
+    }
+  }
+}

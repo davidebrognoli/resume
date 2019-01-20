@@ -1,0 +1,16 @@
+<div class="my-day content-section">
+  <h2 class="content-section__title">La mia giornata</h2>
+  <div class="my-day__content">
+    <div class="my-day__chart">
+      <canvas id="myChart" width="400" height="400"></canvas>
+    </div>
+    <ul class="my-day__legend">
+      {{#each my_day}}
+        <li>
+          <span class="my-day__legend-color" style="background-color: {{this.color}}"></span>
+          <span class="my-day__legend-label">{{this.label}}</span>
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+</div>
