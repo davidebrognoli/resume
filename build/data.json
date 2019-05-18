@@ -14,6 +14,16 @@
       ]
     },
     {
+      "role": "Technical writer",
+      "company": "Gruppo HTML.it",
+      "fromDate": "lug 2014",
+      "toDate": "presente",
+      "place": "Roma, Italy",
+      "description": [
+        "Ideazione e stesura di articoli tecnici su HTML, CSS e JS"
+      ]
+    },
+    {
       "role": "Senior Frontend Developer",
       "company": "Comparto Web",
       "fromDate": "mar 2012",
@@ -23,7 +33,28 @@
         "Analisi dei requisiti applicativi",
         "Progettazione dell'archittettura di Frontend",
         "Sviluppo di web application",
-        "Configurazione e sviluppo temi per Wordpress e Drupal"
+        "Configurazione e sviluppo temi e plugin per Wordpress e Drupal"
+      ]
+    },
+    {
+      "role": "Docente",
+      "company": "TAG Innovation School",
+      "fromDate": "ott 2015",
+      "toDate": "giu 2017",
+      "place": "Milano, Italy",
+      "description": [
+        "Docente dei corsi di HTML, CSS, JS"
+      ]
+    },
+    {
+      "role": "Web Developer",
+      "company": "Wave",
+      "fromDate": "mag 2006",
+      "toDate": "feb 2012",
+      "place": "Brescia, Italy",
+      "description": [
+        "Analasi, progettazione e sviluppo di siti e applicazioni web",
+        "Configurazione e sviluppo temi e plugin per Wordpress e Drupal"
       ]
     }
   ],
@@ -33,6 +64,13 @@
       "organisation": "Università Cattolica",
       "fromDate": "sett 2002",
       "toDate": "sett 2005",
+      "place": "Brescia, Italy"
+    },
+    {
+      "title": "Diploma di maturità scientifica",
+      "organisation": "Liceo A. Calini",
+      "fromDate": "sett 1997",
+      "toDate": "giu 2002",
       "place": "Brescia, Italy"
     }
   ],
@@ -71,17 +109,22 @@
       "percentage": "70"
     }
   ],
-  "skills": ["Javascript", "HTML5", "CSS3", "Angular", "React", "Webpack", "ES6", "SASS", "D3"],
+  "skills": ["Javascript", "ES6", "HTML5", "CSS3", "SASS", "Angular", "React", "Webpack", "Gulp", "Grunt", "PWA", "WebRTC", "D3", "Docker"],
   "online": [
     {
       "icon": "fa-linkedin-in",
-      "link": "/davidebrognoli",
+      "link": "davidebrognoli",
       "url": "https://www.linkedin.com/in/davidebrognoli/"
     },
     {
       "icon": "fa-twitter",
       "link": "@davidebrognoli",
       "url": "https://twitter.com/davidebrognoli"
+    },
+    {
+      "icon": "fa-github",
+      "link": "davidebrognoli",
+      "url": "https://github.com/davidebrognoli"
     }
   ],
   "my_day": [
