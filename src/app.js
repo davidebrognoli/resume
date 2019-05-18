@@ -1,9 +1,9 @@
 import './main.scss';
 import Chart from 'chart.js';
 
-import * as dataSource from '../build/data.json';
+const dataSource = require('../build/data.json');
 
-const {my_day} = dataSource.default;
+const {my_day} = dataSource;
 const data = my_day.map(m => m.length);
 const backgroundColor = my_day.map(m => m.color);
 const labels = my_day.map(m => m.label);

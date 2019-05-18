@@ -122,7 +122,7 @@ module.exports = {
         collapseWhitespace: true,
         caseSensitive: true,
         removeComments: true,
-        removeEmptyElements: true
+        removeEmptyElements: false
       },
 
     }),
