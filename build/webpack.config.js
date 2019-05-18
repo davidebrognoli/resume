@@ -4,6 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const autoprefixer = require('autoprefixer');
 const WebappWebpackPlugin = require('webapp-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 const isDevelopment = process.env.NODE_ENV !== 'production';
 
@@ -125,6 +126,9 @@ module.exports = {
       },
 
     }),
-    new WebappWebpackPlugin('./src/static/favicon.png')
+    new WebappWebpackPlugin('./src/static/favicon.png'),
+    new CopyPlugin([
+      { from: 'src/assets/*', to: 'assets',  flatten: true}
+    ])
   ]
 };
