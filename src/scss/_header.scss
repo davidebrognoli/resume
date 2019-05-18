@@ -1,5 +1,6 @@
 .main-header{
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 30px;
 
   &__info{
@@ -40,6 +41,20 @@
       width: 100%;
       max-width: 140px;
       border-radius: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: $portrait-width - 1) {
+  .main-header{
+    &__info{
+      order: 2;
+      text-align: center;
+    }
+
+    &__image{
+      order: 1;
+      text-align: center;
     }
   }
 }

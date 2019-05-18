@@ -2,6 +2,7 @@
 
   &__content{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
   }
 
@@ -31,6 +32,27 @@
       width: 14px;
       height: 14px;
       border-radius: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: $portrait-width - 1) {
+  .my-day{
+    &__chart{
+      margin: 0 auto;
+    }
+
+    &__legend{
+      margin-top: 20px;
+      padding: 0;
+      text-align: left;
+      display: flex;
+      flex-wrap: wrap;
+      flex: 0 0 100%;
+
+      li{
+        flex: 0 0 50%;
+      }
     }
   }
 }
