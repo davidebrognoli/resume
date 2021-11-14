@@ -1,24 +1,24 @@
-$fa-font-path: "../node_modules/@fortawesome/fontawesome-free/webfonts" !default;
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts" !default;
 
-@import "../node_modules/normalize-scss/sass/normalize";
+@import "~normalize-scss/sass/normalize";
 @include normalize();
 
-@import '../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
-@import '../node_modules/@fortawesome/fontawesome-free/scss/solid';
-@import '../node_modules/@fortawesome/fontawesome-free/scss/brands';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
 
-@import 'scss/variables';
-@import 'scss/colors';
-@import 'scss/typography';
-@import 'scss/mixins';
+@import "scss/variables";
+@import "scss/colors";
+@import "scss/typography";
+@import "scss/mixins";
 
-@import 'scss/core';
+@import "scss/core";
 
-@import 'scss/header';
-@import 'scss/experiences';
-@import 'scss/education';
-@import 'scss/passions';
-@import 'scss/skills';
-@import 'scss/languages';
-@import 'scss/online';
-@import 'scss/my-day';
+@import "scss/header";
+@import "scss/experiences";
+@import "scss/education";
+@import "scss/passions";
+@import "scss/skills";
+@import "scss/languages";
+@import "scss/online";
+@import "scss/my-day";
